@@ -1,0 +1,54 @@
+.add-customer-btn {
+    float: right;
+}
+.custom-date-form {
+    background: #fff;
+    padding: 20px;
+}
+.custom-shoe-table-btn {
+    float: left;
+}
+.tooltip-toggle-download-btn {
+    cursor: pointer;
+    position: relative;
+
+}
+.tooltip-toggle-download-btn::before {
+    position: absolute;
+    top: 3px;
+    left: 348px;
+    background-color: #2B222A;
+    border-radius: 5px;
+    color: #fff;
+    content: attr(aria-label);
+    padding: 2px;
+    text-transform: none;
+    transition: all 0.5s ease;
+    width: 120px;
+  }
+  .tooltip-toggle-download-btn::after {
+    position: absolute;
+    top: 13px;
+    left: 470px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #2B222A;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+    margin-left: -5px;
+    width: 0;
+    transform: rotate(270deg);
+  }
+  .tooltip-toggle-download-btn::before, .tooltip-toggle-download-btn::after {
+    color: #efefef;
+    font-family: monospace;
+    font-size: 16px;
+    opacity: 0;
+    pointer-events: none;
+    text-align: center;
+  }
+  .tooltip-toggle-download-btn:focus::before, .tooltip-toggle-download-btn:focus::after, .tooltip-toggle-download-btn:hover::before, .tooltip-toggle-download-btn:hover::after {
+    opacity: 1;
+    transition: all 0.75s ease;
+  }

@@ -1,0 +1,27 @@
+.custom-scroll-sidebar-bg {
+    background: #212529!important;
+}
+.left-sidebar {
+    padding-top:0px!important;
+}
+.scroll-sidebar {
+    height: calc(100% - 0%)!important;
+    position: relative;
+    /* height: auto!important; */
+}
+.sidebar-nav ul li .fa {
+    color: #fff;
+}
+.sidebar-nav ul li ul {
+    padding-left: 15px;
+}
+/*********************************new css***************************/
+.nav-link[data-toggle].collapsed:after {
+    content: "";
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+    content: "";
+}
+.sidebar-nav{
+    padding-top: 50px;
+}

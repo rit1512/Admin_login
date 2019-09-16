@@ -1,0 +1,9 @@
+/* .custom-navbar-bg {
+    background: #343a40;
+} */
+.custom-topbar-bg {
+    background: #343a40!important;
+}
+.fixed-layout .page-wrapper {
+    padding-top: 0px!important;
+}
